@@ -1,0 +1,81 @@
+Product: WIKA A-10 Pressure Transmitter
+
+Overview
+The WIKA A-10 is a pressure transmitter designed for general industrial applications. It is a compact and flexible sensor that can be integrated into a wide range of machines and systems, including hydraulics, pneumatics, pumps, compressors, and measurement and control environments. It is designed as an all-round solution for pressure measurement across different use cases.
+
+Product positioning and reliability
+The A-10 is a field-proven product with many years of use in industrial environments. It is designed for long-term reliability and stable performance, supporting up to 100 million load cycles while maintaining consistent precision. Its design focuses on durability, low maintenance requirements, and reduced replacement costs in demanding applications.
+
+Measurement capabilities
+The transmitter can measure different types of pressure depending on configuration:
+
+Gauge pressure
+Absolute pressure
+Vacuum
+
+It supports a wide range of measuring ranges, starting from very low pressures such as 0.05 bar and extending up to high-pressure applications of 1,000 bar or more, depending on the selected configuration.
+
+Accuracy and performance
+Accuracy depends on the selected measuring range and configuration. Typical accuracy is around ±1% of span, with options available for improved non-linearity down to ±0.25% of span in certain configurations. The device also provides:
+
+Low signal noise (typically ≤0.2% of span)
+Good repeatability
+Stable long-term drift (typically ≤±0.1% of span for higher ranges)
+
+For dynamic applications, fast response times are supported, with settling times below 1 ms in certain measuring ranges.
+
+Configuration and variants
+The A-10 is highly configurable, with more than 2 million possible variants. It can be adapted to different requirements through multiple configuration options.
+
+Available output signals include:
+
+4–20 mA
+0–10 V
+0–5 V
+1–5 V
+0.5–4.5 V (including ratiometric)
+
+Electrical connection options include:
+
+Angular connectors
+Circular connectors (e.g. M12)
+Cable outlets
+
+Process connections and materials
+The transmitter supports multiple process connection types, including:
+
+G ¼, G ½
+NPT threads
+Other industrial thread standards
+
+Sealing options include:
+
+Copper
+Stainless steel
+NBR
+EPDM
+FKM
+
+Wetted parts are typically made of stainless steel 316L, ensuring compatibility with a range of industrial media.
+
+Pressure limits
+The maximum working pressure corresponds to the upper limit of the selected measuring range. Overpressure limits depend on the configuration and are typically between 1.5 and 2 times the nominal measuring range.
+
+Operating conditions
+The device operates within a standard temperature range of 0 to 80°C, with extended options available from -40 to 100°C depending on configuration and signal type.
+
+It is designed for industrial environments with:
+
+Resistance to vibration and shock
+Ingress protection up to IP65 or IP67 depending on connection type
+
+Installation and flexibility
+The A-10 supports different installation configurations, including various pressure port diameters and optional restrictors. It can be installed in different orientations, although certain mounting positions may introduce small zero point deviations.
+
+Special configurations are available for specific media, including oil- and grease-free versions and configurations designed for water applications with increased stability.
+
+Commercial aspects
+The product is positioned as a cost-efficient solution, offering a balance between performance and price. It is available with short delivery times, including custom configurations starting from single-unit orders, making it suitable for both OEMs and distributors.
+
+Summary
+The WIKA A-10 pressure transmitter is a flexible and reliable solution for industrial pressure measurement. It combines broad configurability, proven durability, and solid performance, making it suitable for a wide range of applications where reliability and cost-efficiency are required.
