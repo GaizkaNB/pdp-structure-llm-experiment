@@ -1,0 +1,196 @@
+# Results
+
+## Notes
+
+- Each prompt is run independently
+- No follow-up questions or refinements
+- Same model and conditions used across all tests (unless stated otherwise)
+
+---
+
+# A_text
+
+## Prompt 1: Product Summary
+
+### Output
+
+What it is The WIKA A-10 is an industrial pressure sensor that converts pressure readings into electrical signals for use in monitoring and control systems. It's a general-purpose device designed to be highly configurable, with over 2 million possible variants.
+What it does It measures gauge, absolute, and vacuum/compound pressure across a very wide range — from as low as 0.05 bar up to 1,000+ bar. It outputs that measurement as an electrical signal (current or voltage) that connects to other equipment. It's accurate to around ±0.25–1% of span, responds in under 1ms for fast-changing pressure, and is built to last up to 100 million load cycles.
+Who it's for It's aimed at engineers and manufacturers in industrial settings who need a reliable, cost-effective pressure sensor. Typical buyers would be:
+•	OEM manufacturers building machines, hydraulic/pneumatic systems, pumps, or compressors
+•	System integrators needing a sensor that fits a specific installation (it supports a wide range of connectors, thread types, and output signals)
+•	Distributors, given its short lead times even on custom single-unit orders
+The bottom line It's a workhorse industrial sensor — not the most specialised tool on the market, but deliberately designed to cover a broad range of applications at a competitive price point, with enough configurability to slot into almost any industrial setup.
+
+
+
+### Evaluation
+- Accuracy: L
+- Completeness: L
+- Clarity: L
+- Constraint awareness: M
+
+### Notes
+- 
+
+---
+
+## Prompt 2: Technical Specification Extraction
+
+### Output
+
+Here are the key technical specifications extracted from the page:
+________________________________________
+Measurement
+•	Pressure types: Gauge, absolute, vacuum, and compound pressure
+•	Measuring range: ~0.05 bar up to 1,000+ bar
+________________________________________
+Accuracy
+•	Typical accuracy: ±1% of span
+•	High-accuracy option: ±0.25% of span (non-linearity)
+•	Signal noise: ≤0.2% of span
+•	Long-term drift: ≤±0.1% of span (higher ranges)
+•	Settling time: <1 ms (certain ranges)
+________________________________________
+Output Signals
+•	4–20 mA (current)
+•	0–10 V, 0–5 V, 1–5 V (voltage)
+•	0.5–4.5 V (including ratiometric)
+________________________________________
+Electrical Connection
+•	Angular connectors
+•	Circular connectors (e.g. M12)
+•	Cable outlet
+________________________________________
+Process Connection
+•	G ¼, G ½
+•	NPT threads
+•	Other industrial thread standards
+________________________________________
+Materials
+•	Wetted parts: Stainless steel 316L
+•	Seals: Copper, stainless steel, NBR, EPDM, FKM
+________________________________________
+Operating Conditions
+•	Standard temperature: 0°C to 80°C
+•	Extended temperature: -40°C to 100°C
+•	Ingress protection: IP65 or IP67 (depending on connector)
+•	Vibration and mechanical shock resistant
+________________________________________
+Pressure Limits
+•	Overpressure limit: 1.5–2× the nominal measuring range
+________________________________________
+Reliability
+•	Load cycles: Up to 100 million
+________________________________________
+Variants
+•	Configurations available: 2 million+
+•	Available from single-unit orders with short delivery times
+
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: H
+- Clarity: H
+- Constraint awareness: H
+
+### Notes
+- 
+
+---
+
+## Prompt 3: Use Case and Constraints
+
+### Output
+
+When the A-10 is Appropriate
+General industrial machinery It's well suited to machine building, hydraulics, pneumatics, pumps, and compressors — anywhere a reliable, standard pressure measurement is needed without highly specialised requirements.
+High-volume or OEM production With over 2 million configurations, short lead times, and availability from single-unit orders, it works well for manufacturers who need a consistent sensor across a product range.
+Wide pressure range applications The 0.05 bar to 1,000+ bar range means it can cover everything from low-pressure pneumatic circuits to high-pressure hydraulic systems within a single product family.
+Fast-response systems The sub-1ms settling time makes it appropriate for dynamic applications where pressure fluctuates rapidly and the control system needs to react quickly.
+Harsh but standard industrial environments IP65/67 protection, vibration resistance, and 316L stainless steel wetted parts make it suitable for typical factory and industrial environments.
+________________________________________
+Limitations and Constraints a Buyer Should Know
+Accuracy may not suit precision-critical applications At ±1% typical accuracy (±0.25% at best), it is adequate for general control and monitoring, but would not be appropriate where high-precision measurement is critical, such as laboratory or calibration environments.
+Temperature range has caveats The standard range is only 0–80°C. The extended -40 to 100°C range depends on the specific signal type and materials selected, so buyers in extreme temperature environments need to verify their exact configuration qualifies.
+Overpressure must be managed The overpressure limit is only 1.5–2× the nominal range. In systems with pressure spikes or surges, buyers would need to account for this carefully or select a higher range to provide headroom.
+Mounting position can affect readings The page notes that mounting orientation can introduce small zero-point deviations, which may matter in sensitive or permanently fixed installations.
+Media compatibility needs checking While 316L stainless steel covers many common fluids, the seal material must be selected carefully for the specific media. Chemically aggressive or unusual fluids may not be compatible with standard configurations.
+Special conditions require specific variants Oil-free, grease-free, or water-stability applications require special versions — a standard configuration would not be appropriate for these without confirmation.
+Not designed for highly specialised industries The page positions this as a general-purpose, cost-efficient sensor. Applications in food and beverage, pharmaceutical, or safety-critical environments (where specific certifications or approvals are typically required) are not mentioned and may require a different product.
+
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: M
+- Clarity: M
+- Constraint awareness: H
+
+### Notes
+- 
+
+---
+
+## Prompt 4: Decision-Making Information
+
+### Output
+
+
+The most important things to establish before choosing the A-10 fall into a few clear categories:
+________________________________________
+1. Pressure Requirements
+The most fundamental check. You need to know:
+•	What type of pressure you're measuring — gauge, absolute, or vacuum — as this determines the base configuration
+•	Your normal operating pressure and whether the available ranges cover it comfortably
+•	Whether pressure spikes occur, since the overpressure limit is only 1.5–2× the nominal range — if surges are common, you may need to select a higher range than your working pressure suggests
+________________________________________
+2. Required Accuracy
+The A-10 offers ±1% typical or ±0.25% at best. Before choosing, you should ask:
+•	Is ±0.25% sufficient for your application, or do you need tighter tolerances?
+•	If you're using it for general monitoring and control, it's likely fine. If precision measurement is critical, it may not be.
+________________________________________
+3. Media and Material Compatibility
+•	What fluid or gas will the sensor be exposed to? The wetted parts are 316L stainless steel, which covers many common applications, but aggressive chemicals or unusual media need checking
+•	Which seal material is appropriate — NBR, FKM, EPDM, copper, or stainless steel each suit different media and temperatures
+•	Is the application oil-free or grease-free? If so, a special variant is required and must be specified at order
+________________________________________
+4. Output Signal and Electrical Interface
+•	What signal type does your system accept? Current (4–20 mA) or one of the voltage options — this must match your control system or data acquisition equipment
+•	What connector type is needed? M12, angular, or cable outlet — determined by your installation and wiring setup
+•	What supply voltage is available? Not explicitly detailed on the page, so this would need confirming in the full datasheet
+________________________________________
+5. Operating Environment
+•	What temperatures will it face? Standard operation is 0–80°C. If you're outside this range, you need to verify that your specific configuration supports the extended -40 to 100°C option
+•	What level of ingress protection is needed? IP67 is available but depends on the connector chosen — worth confirming if the environment is wet or dusty
+•	Is there significant vibration or shock? The A-10 is rated for this, but extreme conditions should be verified against the full datasheet
+________________________________________
+6. Installation Practicalities
+•	What process connection thread is used on your system — G¼, G½, NPT, or another standard?
+•	Will mounting orientation be fixed or variable? If orientation matters for accuracy, small zero-point offsets from mounting position may need to be accounted for
+•	Is there space for the chosen connector type in your installation?
+________________________________________
+7. Commercial and Procurement Factors
+•	What quantity do you need and how quickly? The A-10 is available from single units with short lead times, which is an advantage for both prototyping and production
+•	Is cost a primary driver? It is positioned as cost-efficient, which makes it a strong candidate where budget matters — but if the application demands a more specialised sensor, it may be a false economy
+________________________________________
+In short, the most critical pre-purchase checks are: pressure range and spike tolerance, accuracy requirements, media and seal compatibility, and output signal match. Get those four right and the A-10 is likely a good fit for a general industrial application.
+
+
+
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: H 
+- Clarity: H 
+- Constraint awareness: H
+
+### Notes
+- 
+
+---

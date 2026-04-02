@@ -1,0 +1,210 @@
+# Results
+
+## Notes
+
+- Each prompt is run independently
+- No follow-up questions or refinements
+- Same model and conditions used across all tests (unless stated otherwise)
+
+---
+
+# A_text
+
+## Prompt 1: Product Summary
+
+### Output
+
+WIKA A-10 Pressure Transmitter — Summary
+What it is The WIKA A-10 is an industrial pressure transmitter (sensor) designed to measure pressure in a wide variety of settings. It's a well-established, field-proven product known for its flexibility and reliability.
+What it does It measures gauge pressure, absolute pressure, and vacuum across an impressive range — from as low as 0.05 bar up to 1,000+ bar. Key capabilities include:
+•	High durability, rated for up to 100 million load cycles
+•	Accuracy typically within ±1% of span (±0.25% in optimised configurations)
+•	Fast response times (under 1 ms in some configurations)
+•	Wide operating temperature range: -40°C to 100°C
+•	Weatherproofing up to IP67
+•	Over 2 million possible configuration variants, covering different outputs (4–20 mA, 0–10 V, etc.), connectors, thread types, and materials
+Who it's for It targets a broad industrial audience, including:
+•	OEM manufacturers integrating sensors into hydraulics, pneumatics, pumps, and compressors
+•	Distributors needing fast turnaround on custom orders
+•	Engineers and plant operators looking for a cost-effective, low-maintenance pressure measurement solution in general industrial environments
+In short, it's a versatile, configurable "all-rounder" sensor aimed at anyone needing reliable pressure measurement without a premium price tag.
+
+
+
+### Evaluation
+- Accuracy: L
+- Completeness: L
+- Clarity: M
+- Constraint awareness: L
+
+### Notes
+- 
+
+---
+
+## Prompt 2: Technical Specification Extraction
+
+### Output
+
+Here are the key technical specifications extracted from the document:
+________________________________________
+Pressure Types Gauge pressure, absolute pressure, and vacuum
+Measuring Ranges 0.05 bar (minimum) up to 1,000+ bar (maximum), depending on configuration
+Accuracy
+•	Typical: ±1% of span
+•	Improved non-linearity option: ±0.25% of span
+Output Signals
+•	4–20 mA
+•	0–10 V, 0–5 V, 1–5 V (voltage outputs)
+•	Ratiometric signals
+Electrical Connections
+•	Angular connectors
+•	Circular connectors (M12)
+•	Cable outlets
+Process Connections (Thread Types) G ¼, G ½, NPT, and others
+Sealing Materials Copper, stainless steel, NBR, EPDM, FKM
+Wetted Parts Material Stainless steel 316L
+Operating Temperature
+•	Standard: 0°C to 80°C
+•	Extended: -40°C to 100°C
+Ingress Protection IP65 or IP67 (depending on electrical connection)
+Durability Up to 100 million load cycles
+Signal Noise ≤0.2% of span
+Long-term Drift ±0.1% of span (higher pressure ranges)
+Response Time Below 1 ms (certain measuring ranges)
+Overpressure Limit Typically 1.5–2× the nominal measuring range
+Configuration Variants 2,000,000+ possible variants
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: H
+- Clarity: H
+- Constraint awareness: M
+
+### Notes
+- 
+
+---
+
+## Prompt 3: Use Case and Constraints
+
+### Output
+
+Appropriate Use Cases & Limitations
+✅ When This Product Is a Good Fit
+Application Types
+•	Hydraulic and pneumatic systems
+•	Pumps and compressors
+•	General industrial measurement and control environments
+•	Dynamic applications requiring fast response (sub-1 ms)
+•	High-cycle applications where longevity matters (up to 100 million cycles)
+Buyer Profiles
+•	OEMs needing a configurable, off-the-shelf sensor they can tailor to their machinery
+•	Distributors needing fast delivery even on custom orders
+•	Businesses prioritising cost-efficiency without sacrificing core reliability
+Environmental Suitability
+•	Environments with vibration and shock exposure
+•	Wet or dusty conditions (IP65/IP67 rated)
+•	Wide temperature extremes down to -40°C (extended configuration)
+•	Applications involving oils, water, or certain aggressive media
+________________________________________
+⚠️ Limitations & Constraints a Buyer Should Know
+Accuracy
+•	The standard ±1% accuracy may not be sufficient for precision-critical applications such as laboratory, calibration, or metrological use. The improved ±0.25% option is only available in certain configurations, so buyers need to verify compatibility.
+Temperature
+•	The standard range (0–80°C) excludes very cold environments. The extended range (-40°C to 100°C) requires a specific configuration, and not all signal types support it — buyers need to confirm this at the point of ordering.
+Overpressure
+•	The overpressure limit is only 1.5–2× the nominal range, which may be insufficient in systems prone to significant pressure spikes or surges.
+Mounting & Orientation
+•	Certain mounting positions can introduce small zero point deviations, which could matter in high-precision installations. This would need to be compensated for or accounted for during setup.
+Ingress Protection
+•	IP rating depends on the electrical connection chosen. A buyer who needs IP67 must ensure they select a compatible connector — it is not guaranteed across all configurations.
+Complexity of Choice
+•	With over 2 million variants, specifying the correct configuration requires care. Buyers unfamiliar with the product range may need technical support to avoid ordering an incompatible or suboptimal variant.
+Not Explicitly Covered
+•	The page doesn't mention compatibility with hazardous area classifications (e.g. ATEX/IECEx for explosive atmospheres), which may be a dealbreaker in certain industries like oil & gas or chemical processing.
+•	There is no mention of specific media compatibility beyond oil, grease-free, and water variants, so buyers with aggressive or unusual media should verify suitability separately.
+
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: M
+- Clarity: M 
+- Constraint awareness: M
+
+### Notes
+- 
+
+---
+
+## Prompt 4: Decision-Making Information
+
+### Output
+
+
+Key Details to Confirm Before Choosing the WIKA A-10
+These are the critical decision points — getting any one of these wrong could result in an incompatible or underperforming product.
+________________________________________
+1. 📏 Measuring Range
+•	What is the minimum and maximum pressure your application requires?
+•	Does it involve vacuum, gauge, or absolute pressure?
+•	Is your required range within 0.05–1,000+ bar?
+________________________________________
+2. 🎯 Accuracy Requirements
+•	Will the standard ±1% of span meet your needs, or do you require the ±0.25% option?
+•	Confirm the improved accuracy option is available for your specific configuration before assuming it applies.
+________________________________________
+3. 🔌 Output Signal & Electrical Connection
+•	Which output signal does your system expect — 4–20 mA, voltage (0–10 V etc.), or ratiometric?
+•	Which connector type suits your installation — M12, angular, or cable outlet?
+•	Note that your connector choice will also determine your IP rating.
+________________________________________
+4. 🌡️ Temperature Range
+•	What are the ambient and media temperatures in your application?
+•	If you need the extended range (-40°C to 100°C), confirm it is compatible with your chosen signal type and configuration.
+________________________________________
+5. 🔩 Process Connection
+•	What thread type does your system use — G ¼, G ½, NPT, or other?
+•	What sealing material is compatible with your media — NBR, FKM, EPDM, copper, or stainless steel?
+________________________________________
+6. 💧 Media Compatibility
+•	What substance will the sensor be in contact with?
+•	Standard versions suit oil and water, but aggressive, corrosive, or unusual media need explicit verification.
+•	Oil- and grease-free versions are available if required (e.g. for compressed air or oxygen applications).
+________________________________________
+7. ⚡ Overpressure & Pressure Spikes
+•	Does your system experience pressure spikes or surges?
+•	The overpressure limit is only 1.5–2× the nominal range — if spikes exceed this, the sensor could be damaged.
+________________________________________
+8. 🏭 Environmental Conditions
+•	What level of ingress protection do you need (IP65 vs IP67)?
+•	Will the sensor be exposed to significant vibration or shock?
+•	What mounting orientation will be used, and can any zero point deviation be tolerated or compensated?
+________________________________________
+9. ⚠️ Hazardous Area Classification
+•	Will the sensor be installed in a potentially explosive atmosphere?
+•	The product page makes no mention of ATEX or IECEx certification — this needs to be verified directly with WIKA if relevant.
+________________________________________
+10. 📦 Order & Supply Considerations
+•	How many units do you need, and how quickly?
+•	Single-unit custom orders are supported with short lead times, but confirming delivery timelines for your specific configuration is advisable.
+•	With 2 million+ variants, engaging WIKA's technical support to validate your specification before ordering is strongly recommended.
+________________________________________
+Bottom line: The A-10 is highly capable and flexible, but its strength — near-limitless configurability — also means the specification process requires careful attention. A poorly specified order could result in the wrong accuracy, protection rating, or media compatibility for your application.
+
+
+
+### Evaluation
+- Accuracy: H
+- Completeness: H
+- Clarity: H
+- Constraint awareness: M
+
+### Notes
+- 
+
+---
