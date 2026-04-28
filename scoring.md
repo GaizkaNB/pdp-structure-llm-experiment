@@ -10,8 +10,10 @@
 | A_html  | M        | M            | H       | M           |
 | B_text  | M        | H            | M       | M           |
 | B_html  | M        | H            | H       | M           |
+| B_html_JSON | H        | H            | H       | H           |
 | C_text  | M        | H            | H       | M           |
 | C_html  | H        | M            | H       | H           |
+| C_html_JSON | H        | H            | H       | H           |
 
 #### Google
 
@@ -21,8 +23,10 @@
 | A_html  | L        | L            | M       | L           |
 | B_text  | M        | M            | M       | M           |
 | B_html  | M        | M            | M       | M           |
+| B_html_JSON | H        | M            | H       | M           |
 | C_text  | M        | M            | L       | H           |
 | C_html  | L        | L            | M       | M           |
+| C_html_JSON | H        | L            | M       | M           |
 
 #### Claude
 
@@ -32,8 +36,10 @@
 | A_html  | L        | L            | M       | L           |
 | B_text  | L        | L            | M       | L           |
 | B_html  | M        | L            | M       | M           |
+| B_html_JSON | L        | L            | M       | M           |
 | C_text  | L        | L            | M       | L           |
 | C_html  | L        | L            | L       | M           |
+| C_html_JSON | L        | L            | M       | M           |
 
 ---
 
@@ -47,8 +53,10 @@
 | A_html  | H        | M            | H       | M           |
 | B_text  | H        | H            | M       | H           |
 | B_html  | H        | H            | H       | H           |
+| B_html_JSON | H        | H            | H       | H           |
 | C_text  | H        | H            | H       | H           |
 | C_html  | H        | H            | H       | H           |
+| C_html_JSON | H        | H            | H       | H           |
 
 #### Google
 
@@ -58,8 +66,10 @@
 | A_html  | H        | H            | H       | M           |
 | B_text  | H        | H            | M       | H           |
 | B_html  | H        | M            | M       | H           |
+| B_html_JSON | H        | H            | M       | H           |
 | C_text  | H        | M            | M       | H           |
 | C_html  | H        | H            | M       | H           |
+| C_html_JSON | H        | H            | M       | H           |
 
 #### Claude
 
@@ -69,8 +79,10 @@
 | A_html  | H        | H            | H       | H           |
 | B_text  | M        | H            | M       | H           |
 | B_html  | H        | H            | M       | M           |
+| B_html_JSON | H        | H            | M       | H           |
 | C_text  | H        | H            | M       | H           |
 | C_html  | H        | H            | H       | H           |
+| C_html_JSON | H        | H            | H       | H           |
 
 ---
 
@@ -84,8 +96,10 @@
 | A_html  | H        | H            | H       | H           |
 | B_text  | H        | H            | H       | H           |
 | B_html  | H        | H            | H       | H           |
+| B_html_JSON | H        | H            | H       | H           |
 | C_text  | H        | H            | H       | H           |
 | C_html  | H        | H            | H       | H           |
+| C_html_JSON | H        | H            | H       | H           |
 
 #### Google
 
@@ -95,8 +109,10 @@
 | A_html  | H        | M            | M       | M           |
 | B_text  | H        | M            | M       | M           |
 | B_html  | H        | M            | M       | M           |
+| B_html_JSON | H        | H            | M       | H           |
 | C_text  | H        | M            | M       | H           |
 | C_html  | H        | M            | M       | H           |
+| C_html_JSON | H        | H            | M       | H           |
 
 #### Claude
 
@@ -106,8 +122,10 @@
 | A_html  | H        | H            | M       | M           |
 | B_text  | H        | M            | M       | M           |
 | B_html  | H        | M            | H       | H           |
+| B_html_JSON | H        | M            | H       | H           |
 | C_text  | H        | H            | M       | H           |
 | C_html  | H        | M            | M       | H           |
+| C_html_JSON | H        | M            | H       | H           |
 
 ---
 
@@ -121,8 +139,10 @@
 | A_html  | H        | M            | H       | H           |
 | B_text  | H        | M            | H       | H           |
 | B_html  | H        | M            | H       | H           |
+| B_html_JSON | H        | H            | H       | H           |
 | C_text  | H        | M            | H       | H           |
 | C_html  | H        | H            | H       | H           |
+| C_html_JSON | H        | M            | H       | H           |
 
 #### Google
 
@@ -132,8 +152,10 @@
 | A_html  | H        | M            | M       | M           |
 | B_text  | H        | M            | M       | M           |
 | B_html  | H        | M            | M       | M           |
+| B_html_JSON | H        | M            | M       | M           |
 | C_text  | H        | M            | M       | M           |
 | C_html  | H        | M            | M       | M           |
+| C_html_JSON | H        | M            | H       | M           |
 
 #### Claude
 
@@ -143,5 +165,7 @@
 | A_html  | H        | H            | M       | M           |
 | B_text  | H        | H            | H       | H           |
 | B_html  | H        | H            | M       | H           |
+| B_html_JSON | H        | M            | H       | H           |
 | C_text  | H        | H            | H       | H           |
 | C_html  | H        | H            | H       | H           |
+| C_html_JSON | H        | H            | H       | H           |
