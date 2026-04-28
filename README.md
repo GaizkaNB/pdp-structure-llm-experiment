@@ -63,9 +63,11 @@ The second phase evaluates two types of model behaviour:
 The follow-up reuses the same product and base content from the first experiment, with JSON added as a new controlled variable.
 
 - B_text: Structured content only
-- B_html: Same visible content as B_text, plus embedded JSON in HTML
+- B_html: Structured HTML without embedded JSON
+- B_html_JSON: Same visible content as B_html, plus embedded JSON in HTML
 - C_text: Structured content plus explicit natural language context
-- C_html: Same visible content as C_text, plus embedded JSON in HTML
+- C_html: Structured HTML with explicit natural language context, without embedded JSON
+- C_html_JSON: Same visible content as C_html, plus embedded JSON in HTML
 
 ### Input Modes
 
@@ -89,13 +91,28 @@ The JSON should include:
 
 The JSON should not contain richer or different information than the intended experimental condition allows. Its role is to test whether machine-readable structure changes model performance, not whether extra hidden facts improve answers.
 
+### Phase 2 Files
+
+The JSON variants are stored in the `Input` folder:
+
+- `B_html_JSON.html`
+- `C_html_JSON.html`
+
+Model outputs are stored in the `Outputs` folder for:
+
+- ChatGPT
+- Google Gemini
+- Claude
+
+Each output file follows the same structure as Phase 1: four independent prompt responses, followed by blank evaluation fields or scored results depending on the stage of analysis.
+
 ### Key Comparisons
 
 The main comparisons for Phase 2 are:
 
-- B_text vs B_html: Does JSON improve performance on its own?
-- C_text vs C_html: Does JSON add value when the visible content is already explicit?
-- B_html vs C_text: Can JSON replace explicit natural language?
+- B_html vs B_html_JSON: Does JSON improve performance on structured content?
+- C_html vs C_html_JSON: Does JSON add value when the visible content is already explicit?
+- B_html_JSON vs C_html: Can JSON replace explicit natural language?
 
 ### Hypothesis
 
@@ -124,6 +141,11 @@ Outputs are evaluated based on:
 - Constraint awareness
 
 Constraint awareness is the key metric for the JSON extension because it captures whether the model understands limits, dependencies, and appropriate use rather than simply extracting facts.
+
+Phase 2 scores are included in `scoring.md`, with JSON rows labelled:
+
+- `B_html_JSON`
+- `C_html_JSON`
 
 ## Goal
 
