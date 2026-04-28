@@ -1,0 +1,376 @@
+# Results
+
+## Notes
+
+- Each prompt is run independently
+- No follow-up questions or refinements
+- Same model and conditions used across all tests (unless stated otherwise)
+
+---
+
+# C_html_JSON
+
+## Prompt 1: Product Summary
+
+### Output
+
+**What the product is**
+The WIKA A-10 is an industrial pressure transmitter (sensor). Its core function is to measure pressure in a system and convert that measurement into an electrical signal that other equipment-like control systems or monitoring software-can use.
+
+**What it does**
+
+* Measures different types of pressure: gauge (relative to atmosphere), absolute (relative to vacuum), and vacuum/compound pressure.
+* Works across a very wide range, from very low pressures (~0.05 bar) up to high-pressure applications (around 1000 bar+ depending on setup).
+* Converts the measurement into standard electrical outputs (e.g. 4-20 mA or voltage signals) so it can be integrated into industrial control systems.
+* Provides stable, reasonably accurate readings (typically +/-1% of span, with higher-accuracy options available).
+* Responds quickly to pressure changes (sub-millisecond response in some configurations), making it suitable for dynamic systems.
+
+It's also highly configurable (millions of variants), meaning users can choose different connections, materials, output signals, and pressure ranges to match their specific setup.
+
+**What it's for (use cases)**
+The A-10 is a general-purpose sensor used across many industrial environments, including:
+
+* Machine building
+* Hydraulics and pneumatics
+* Pumps and compressors
+* General measurement and control systems
+
+It's designed to operate reliably in typical industrial conditions (temperature variation, vibration, moisture protection up to IP65/IP67).
+
+**Who it's for**
+
+* Industrial engineers and system designers integrating pressure measurement into equipment
+* OEMs building machines or systems at scale
+* Maintenance and operations teams needing reliable monitoring
+* Distributors supplying general-purpose industrial components
+
+**Overall**
+This is a versatile, cost-efficient, general-purpose pressure sensor. It's not highly specialised, but it covers a wide range of standard industrial needs with good reliability, flexible configuration, and broad compatibility.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 2: Technical Specification Extraction
+
+### Output
+
+Here are the **key technical specifications** extracted from the product page:
+
+---
+
+## Measurement
+
+* **Pressure types:** Gauge, absolute, vacuum, compound
+* **Measuring range:**
+
+  * Minimum: ~0.05 bar
+  * Maximum: ~1000 bar or higher (configuration-dependent)
+
+---
+
+## Accuracy & Performance
+
+* **Typical accuracy:** +/-1% of span
+* **High-accuracy option:** Up to +/-0.25% of span (non-linearity)
+* **Signal noise:** <=0.2% of span
+* **Long-term drift:** <=+/-0.1% of span (higher ranges)
+* **Repeatability:** Stable across operating conditions
+* **Response time (settling):** <1 ms (for certain ranges)
+
+---
+
+## Output Signals
+
+* 4-20 mA
+* 0-10 V
+* 0-5 V
+* 1-5 V
+* 0.5-4.5 V (including ratiometric)
+
+---
+
+## Electrical Connections
+
+* Angular connectors
+* Circular connectors (e.g. M12)
+* Cable outlet versions
+
+---
+
+## Process Connections
+
+* G 1/4
+* G 1/2
+* NPT threads
+* Other industrial thread standards
+
+---
+
+## Materials
+
+* **Wetted parts:** Stainless steel 316L
+* **Sealing materials:** Copper, stainless steel, NBR, EPDM, FKM
+
+---
+
+## Pressure Limits
+
+* **Max working pressure:** Defined by selected measuring range
+* **Overpressure limit:** Typically 1.5x to 2x nominal range
+
+---
+
+## Operating Conditions
+
+* **Standard temperature range:** 0 to 80 deg C
+* **Extended temperature range:** -40 to 100 deg C (configuration-dependent)
+* **Ingress protection:** Up to IP65 / IP67 (depending on connection)
+* **Environmental resistance:** Vibration and mechanical shock resistant
+
+---
+
+## Mechanical / Installation
+
+* Multiple mounting orientations (possible zero-point deviation depending on position)
+* Optional pressure port diameters and restrictors
+
+---
+
+## Reliability
+
+* **Service life:** Up to 100 million load cycles (range-dependent)
+
+---
+
+## Configuration & Variants
+
+* **Variants:** 2+ million possible configurations
+* Special options:
+
+  * Oil- and grease-free versions
+  * Enhanced stability for water applications
+
+---
+
+If you want, I can condense this into a one-page datasheet-style table or highlight only the specs that matter for a specific application.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 3: Use Case and Constraints
+
+### Output
+
+**Where this product is appropriate**
+
+The A-10 is best suited to **general industrial pressure measurement** where reliability, flexibility, and cost matter more than extreme precision or niche features.
+
+Typical good-fit situations:
+
+* **Machine building / OEM equipment** where a standard, configurable sensor is needed across different models
+* **Hydraulic and pneumatic systems** (e.g. monitoring line pressure)
+* **Pumps and compressors**, especially where pressure needs to be tracked continuously
+* **Industrial control and monitoring systems** using standard outputs like 4-20 mA or voltage signals
+* **Dynamic systems** where pressure changes quickly (thanks to fast response times)
+* **Applications with varying installation requirements**, since it offers many connection types, materials, and configurations
+
+In short, it's a **versatile, general-purpose sensor** that works well across a wide range of standard industrial environments.
+
+---
+
+**Key limitations and constraints**
+
+A buyer should be aware that flexibility comes with some boundaries:
+
+### 1. Configuration-dependent performance
+
+* Accuracy, pressure range, temperature limits, and protection rating all **depend on the chosen configuration**.
+* Choosing the wrong variant can lead to underperformance or incompatibility.
+
+### 2. Pressure limits
+
+* The **maximum working pressure is tied to the selected range** and must not be exceeded.
+* **Overpressure tolerance is limited** (typically 1.5-2x range); exceeding this risks damage or degraded accuracy.
+
+### 3. Temperature constraints
+
+* Standard operation is **0 to 80 deg C**, with extended ranges only available in certain versions.
+* Not all configurations support extreme temperatures.
+
+### 4. Accuracy limitations
+
+* Typical accuracy is **+/-1% of span**, which is adequate for many industrial uses but **not suitable for high-precision applications** unless a higher-spec variant is selected.
+
+### 5. Media compatibility
+
+* Compatibility depends on **wetted materials and seals** (e.g. stainless steel, NBR, EPDM, FKM).
+* Incorrect material selection can lead to corrosion, leakage, or failure.
+
+### 6. Environmental protection varies
+
+* Ingress protection (IP65/IP67) depends on the **electrical connection type**.
+* Not all variants are suitable for harsh or washdown environments.
+
+### 7. Installation sensitivity
+
+* **Mounting position can affect zero point slightly**, which may matter in sensitive measurements.
+
+### 8. Not specialised
+
+* It's a **general-purpose device**, so it may not be suitable for:
+
+  * Highly specialised or safety-critical applications
+  * Extremely high precision requirements
+  * Unusual media or extreme operating conditions
+
+---
+
+**Bottom line**
+The A-10 is a solid choice for **standard industrial pressure sensing across many use cases**, especially when you need configurability and cost efficiency. The main consideration is selecting the **right configuration for your exact conditions**, since most limitations stem from mismatches between the application and the chosen variant.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 4: Decision-Making Information
+
+### Output
+
+Before choosing the WIKA A-10, the most important details come down to **matching the configuration to your application**. The product is flexible, but that also means you need to specify it correctly.
+
+Here are the key things a buyer needs to know:
+
+---
+
+## 1. Required pressure range and type
+
+* What **pressure range** will you measure (min and max)?
+* What **type of pressure**: gauge, absolute, or vacuum?
+
+This is critical because:
+
+* The selected range defines both **accuracy and maximum allowable pressure**
+* Exceeding the range or overpressure limit can damage the sensor
+
+---
+
+## 2. Accuracy requirements
+
+* Do you need standard accuracy (+/-1%) or higher precision (down to +/-0.25%)?
+
+If your application involves tight control, calibration, or compliance, the standard version may not be sufficient.
+
+---
+
+## 3. Output signal compatibility
+
+* What signal does your system accept?
+
+  * 4-20 mA (most common in industry)
+  * Voltage signals (e.g. 0-10 V, 0.5-4.5 V)
+
+Choosing the wrong output means it won't integrate with your control system.
+
+---
+
+## 4. Mechanical and process connection
+
+* What thread or fitting do you need (e.g. G 1/4, G 1/2, NPT)?
+* Does it physically fit your system?
+
+This is a basic but essential compatibility check.
+
+---
+
+## 5. Media compatibility (materials and seals)
+
+* What fluid or gas are you measuring?
+* Is it compatible with:
+
+  * Stainless steel (316L wetted parts)
+  * Seal materials (NBR, EPDM, FKM, etc.)
+
+Incorrect material choice can lead to failure or contamination.
+
+---
+
+## 6. Environmental conditions
+
+* Temperature range (standard 0-80 deg C, or extended needed?)
+* Exposure to water, dust, vibration, or shock
+* Required IP rating (IP65/IP67 depending on configuration)
+
+Not all variants handle harsh environments equally.
+
+---
+
+## 7. Dynamic performance needs
+
+* Does your system have **rapid pressure changes**?
+
+If so, you may need configurations with faster response times (<1 ms).
+
+---
+
+## 8. Installation constraints
+
+* Mounting orientation (may slightly affect zero point)
+* Cable vs connector preference (e.g. M12 vs cable outlet)
+
+These affect usability and measurement stability.
+
+---
+
+## 9. Safety margins (overpressure and durability)
+
+* Expected pressure spikes vs sensor limits (1.5-2x range)
+* Required service life (up to ~100 million cycles depending on range)
+
+You need enough margin to avoid premature failure.
+
+---
+
+## 10. Level of specialisation required
+
+* Do you need something **general-purpose**, or a specialised sensor?
+
+The A-10 is best for standard industrial use-not extreme precision, exotic media, or highly specialised environments.
+
+---
+
+**In practice:**
+The single most important step is defining your **operating conditions (pressure, temperature, media, environment)** and then selecting a configuration that fits. Most issues with this type of product come from mismatched specifications rather than product quality.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---

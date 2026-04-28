@@ -1,0 +1,177 @@
+# Results
+
+## Notes
+
+- Each prompt is run independently
+- No follow-up questions or refinements
+- Same model and conditions used across all tests (unless stated otherwise)
+
+---
+
+# B_html_JSON
+
+## Prompt 1: Product Summary
+
+### Output
+
+The **WIKA A-10** is a highly versatile, general-purpose pressure transmitter designed to convert industrial pressure into standard electrical signals for monitoring and control. It is positioned as a cost-efficient "all-rounder" that balances performance with long-term reliability.
+
+---
+
+### **What is the product?**
+The A-10 is a compact industrial sensor known for its extreme configurability, offering **more than 2 million possible variants**. Its key features include:
+* **Measurement Types**: Capable of measuring gauge pressure, absolute pressure, vacuum, and compound pressure.
+* **Performance**: Typically offers +/-1% accuracy (with options down to +/-0.25%) and a service life of up to **100 million load cycles**.
+* **Build Quality**: Features wetted parts made of **316L stainless steel** and supports various sealing materials like NBR, EPDM, and FKM.
+* **Range**: Covers a broad spectrum from **0.05 bar to over 1,000 bar**.
+
+### **What does it do?**
+The device measures the pressure of a medium (liquid or gas) and provides a precise electrical output to a control system.
+* **Output Signals**: Supports various standards including **4-20 mA, 0-10 V, and ratiometric 0.5-4.5 V**.
+* **Environmental Resilience**: Designed to withstand vibration and mechanical shock, with ingress protection ratings of **IP65 or IP67** depending on the connection.
+* **Specialized Functions**: Includes configurations for specific needs, such as oil- and grease-free versions or stabilized designs for water applications.
+
+### **Who is it for?**
+The A-10 is intended for a broad range of technical and commercial users who require a reliable yet affordable pressure sensing solution.
+* **Target Industries**: Machine building, hydraulics, pneumatics, pumps, compressors, and measurement/control systems.
+* **Primary Buyers**:
+    * **OEMs (Original Equipment Manufacturers)**: Benefit from custom configurations even for single-unit orders.
+    * **Distributors**: Suitable for stocking due to its broad industrial appeal and short delivery times.
+    * **System Designers & Maintenance Teams**: Ideal for those needing a field-proven, low-maintenance component for various industrial environments.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 2: Technical Specification Extraction
+
+### Output
+
+Based on the provided product documentation, the **WIKA A-10** features the following key technical specifications:
+
+### **Measurement Performance**
+* **Pressure Types**: Gauge pressure, absolute pressure, vacuum, and compound pressure.
+* **Measuring Ranges**: Available from **0.05 bar up to 1,000 bar** (approximately 0-15 psi to 0-10,000 psi).
+* **Accuracy**: Typically **<= +/-1.0% of span** (standard), with options for higher accuracy down to **<= +/-0.5% of span**.
+* **Non-linearity**: Standard at **<= +/-0.5% BFSL**, with a high-performance option of **<= +/-0.25% BFSL**.
+* **Service Life**: Designed for high durability with up to **100 million load cycles**.
+* **Signal Stability**: Long-term drift is typically **<= +/-0.1% of span** for ranges > 0.4 bar.
+
+### **Electrical and Signal Data**
+* **Output Signals**:
+    * **Current**: 4-20 mA.
+    * **Voltage**: 0-10 V, 0-5 V, 1-5 V, or 0.5-4.5 V (including ratiometric).
+* **Power Supply**: Typically **8 to 30 V DC**.
+* **Response Time**: Fast settling time of **< 1 ms** or **< 4 ms** depending on the specific range and signal configuration.
+
+### **Materials and Mechanical Connections**
+* **Wetted Parts**: Primary material is **316L stainless steel**.
+* **Process Connections**: Standard industrial threads such as **G 1/4, G 1/2**, and **1/4" NPT or 1/2" NPT**.
+* **Sealing Materials**: Options include **Copper, NBR, EPDM, FKM**, and stainless steel.
+* **Electrical Connections**: DIN angular connectors (e.g., DIN 175301-803 A/C), M12x1 circular connectors, and fixed cable outlets.
+
+### **Environmental Operating Limits**
+* **Operating Temperature**: Standard range of **0 to 80 deg C** (32 to 176 deg F), with extended options from **-30/-40 to 100 deg C** (-22/-40 to 212 deg F).
+* **Ingress Protection**: **IP65 or IP67** depending on the selected electrical connection.
+* **Mechanical Resistance**: Tested for vibration resistance up to **10 g** (per IEC 60068-2-6).
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 3: Use Case and Constraints
+
+### Output
+
+Based on the provided product documentation, the WIKA A-10 is designed as a versatile "all-rounder," but its suitability depends heavily on matching the specific configuration to the application requirements.
+
+### **Appropriate Situations for Use**
+The WIKA A-10 is appropriate for the following scenarios:
+
+* **General Industrial Applications**: It is designed for standard environments such as machine building, hydraulics, pneumatics, and measurement and control systems.
+* **High-Cycle Operations**: With a service life of up to **100 million load cycles**, it is suitable for systems requiring long-term reliability and durability.
+* **Dynamic Pressure Systems**: Its fast settling time (below 1 ms in certain ranges) makes it appropriate for applications with rapidly changing pressures.
+* **OEM and Custom Projects**: Because it is available in over **2 million variants** and can be ordered in single units, it is ideal for original equipment manufacturers and distributors.
+* **Specific Media Requirements**: It is appropriate for applications requiring **oil- and grease-free** versions or those involving water where increased stability is necessary.
+
+---
+
+### **Limitations and Constraints**
+Potential buyers should be aware of several technical constraints to ensure the sensor does not fail:
+
+* **Configuration Dependency**: Performance metrics like accuracy, temperature range, and ingress protection are not universal; they depend entirely on the specific variant selected.
+* **Pressure Caps**: The maximum working pressure is strictly defined by the upper limit of the selected measuring range and should not be exceeded.
+* **Overpressure Risks**: Overpressure limits are typically **1.5 to 2 times** the nominal range; exceeding this can damage the sensor or permanently reduce accuracy.
+* **Temperature Restrictions**: While extended ranges exist (-40 to 100 deg C), the standard operating range is only **0 to 80 deg C**.
+* **Environmental Sealing**: Ingress protection (IP65 vs. IP67) is limited by the type of electrical connection chosen.
+* **Mounting Sensitivity**: Certain installation positions can introduce small **zero point deviations**, which may affect precision in sensitive applications.
+* **Media Compatibility**: Buyers must verify that the wetted parts (316L stainless steel) and the selected sealing materials (e.g., NBR, FKM) are chemically compatible with the process media.
+
+The product is **not suitable** if the application requires operation beyond these configured limits or if the process media is incompatible with the selected materials.
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
+
+## Prompt 4: Decision-Making Information
+
+### Output
+
+Selecting the WIKA A-10 requires moving from its general "all-rounder" status to a specific technical configuration. Because this product has over **2 million possible variants**, choosing the wrong one can lead to inaccurate readings or sensor failure.
+
+The most critical details you need to define before choosing are:
+
+### 1. Pressure Specifications
+* **Pressure Type:** You must specify if you are measuring **Gauge** (relative to atmosphere), **Absolute** (relative to vacuum), or **Vacuum** pressure.
+* **Measuring Range:** Define your exact range (e.g., 0-10 bar).
+    * *Constraint:* For the best accuracy, choose a range where your normal operating pressure is in the middle.
+    * *Constraint:* If measuring **water**, WIKA recommends a configuration with higher **overload safety** to protect against pressure spikes (water hammer).
+
+### 2. Output Signal & Power
+* **Signal Type:** Match this to your control system (PLC/Display). Common options are **4-20 mA** (current), **0-10 V** (voltage), or **0.5-4.5 V ratiometric**.
+* **Supply Voltage:** Ensure your power source matches the transmitter's requirements (typically **8-30 V DC** for current signals).
+
+### 3. Environment & Media Compatibility
+* **Process Connection:** You need the correct thread size (e.g., **G 1/4 A, 1/4 NPT**) to fit your piping.
+* **Media Temperature:** Standard units handle **0 to 80 deg C**. If your fluid is hotter (up to 100 deg C) or colder (down to -40 deg C), you must select an extended temperature variant.
+* **Material Compatibility:** The "wetted parts" are **316L stainless steel**. You must confirm that your fluid (oil, gas, water, etc.) won't corrode this material or the internal sealing (NBR, FKM, etc.).
+* **Special Requirements:** If your application involves oxygen or sensitive processes, you may need the **oil- and grease-free** version.
+
+### 4. Precision Requirements
+* **Non-linearity:** Decide between the standard **0.5%** or the high-performance **0.25%** BFSL.
+* **Mounting Position:** For very low-pressure ranges (<= 1 bar), the physical orientation of the sensor (vertical vs. horizontal) can cause a small "zero point" shift. You may need to calibrate the system after installation.
+
+### 5. Physical Connection (Ingress Protection)
+* The **IP rating** (protection against dust and water) depends on the plug you choose. For example, an **M12 connector** or a **cable outlet** may offer better protection (IP67) than a standard DIN angular connector (IP65).
+
+### Evaluation
+- Accuracy:
+- Completeness:
+- Clarity:
+- Constraint awareness:
+
+### Notes
+-
+
+---
